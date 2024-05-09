@@ -37,21 +37,21 @@ const ServiceComponent = () => {
         </Grid>
       </Grid>
       {/* Section 2 */}
-      <Grid container spacing={14} sx={{marginTop:'30px' , marginBottom:'10%'}}>
+      <Grid container spacing={14} sx={{ marginTop: '30px', marginBottom: '10%' }}>
         {/* 1 */}
-        <Grid item xs={12} sm={4} style={{ paddingTop:'0px'}}>
+        <Grid item xs={12} sm={4} style={{ paddingTop: '0px' }}>
           <WebhookIcon sx={{ color: 'wheat', width: '50px', height: '50px' }} />
           <Typography sx={{ color: 'white', fontWeight: 'bold', fontSize: '25px', width: '25%' }}>Web Development</Typography>
           <Typography sx={{ color: 'white', fontSize: '16px' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</Typography>
         </Grid>
         {/* 2 */}
-        <Grid item xs={12} sm={4} style={{ paddingTop:'0px'}}>
+        <Grid item xs={12} sm={4} style={{ paddingTop: '0px' }}>
           <WifiPasswordIcon sx={{ color: 'wheat', width: '50px', height: '50px' }} />
           <Typography sx={{ color: 'white', fontWeight: 'bold', fontSize: '25px', width: '25%' }}>WordPress Solutions</Typography>
           <Typography sx={{ color: 'white', fontSize: '16px' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</Typography>
         </Grid>
         {/* 3 */}
-        <Grid item xs={12} sm={4} container direction="column" justifyContent="center" color={'white'} style={{ paddingTop:'0px'}}>
+        <Grid item xs={12} sm={4} container direction="column" justifyContent="center" color={'white'} style={{ paddingTop: '0px' }}>
           <AppSettingsAltIcon sx={{ color: 'wheat', width: '50px', height: '50px' }} />
           <Typography sx={{ color: 'white', fontWeight: 'bold', fontSize: '25px', width: '25%' }}>Mobile Applications</Typography>
           <Typography sx={{ color: 'white', fontSize: '16px' }}>A small river named Duden flows by their place and supplies it with the necessary regelialia.</Typography>

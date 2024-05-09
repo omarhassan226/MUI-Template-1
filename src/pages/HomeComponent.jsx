@@ -51,13 +51,13 @@ export default function HomeComponent() {
           display: "flex",
           justifyContent: "center",
           marginTop: '13%',
-          flexDirection:'column'
+          flexDirection: 'column'
         }}
       >
         <IconButton style={{ color: "white" }}>
           <ArrowUpwardOutlinedIcon />
         </IconButton>
-        <p style={{color:'white', textAlign:'center', margin:'0'}}>scroll</p>
+        <p style={{ color: 'white', textAlign: 'center', margin: '0' }}>scroll</p>
       </Box>
     </div>
   );
